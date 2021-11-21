@@ -1,0 +1,23 @@
+{
+  "name": "managerApi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "dotenv": "^10.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.0-alpha.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "nodemon ./src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
